@@ -1,0 +1,70 @@
+body {
+    background-image: url(picture/background.jpg);
+    margin: 0px;
+}
+
+.logintitle {
+    height: 80px;
+    text-align: center;
+    position: relative;
+    padding-top: 1px;
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px 15px 0px 0px;
+}
+
+.login {
+    margin-top: 30px;
+    font-size: 10px;
+}
+
+#username {
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#password,
+#name,
+#phone,
+#location,
+#gender {
+    width: 200px;
+    height: 20px;
+    margin: 20px;
+}
+
+
+
+.loginbutton {
+    color: white;
+    background: #000000;
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.loginbutton:hover {
+    background: #ffc2e5;
+}
+
+#container {
+    background-color: white;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    top: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    width: 300px;
+    height: 400px;
+}
+
+a {
+    color: white;
+    text-decoration: none
+}

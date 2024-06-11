@@ -8,13 +8,17 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div id=container>
-        <form action="./check.jsp" method="post"></form>
-            <div class=logintitle><h1><a href="../index.html" style="color: aliceblue;">Sweet Box</a></h1></div>
-            <div class=login><h1>會員登入</h1></div>
-            <div><input type="text" id="username" name="id" placeholder="帳號" ></div>
-            <div><input type="password" id="password" name="pwd" placeholder="密碼" ></div>
-            <input type="submit" value="登入" class="loginbutton">
+    <div id="container">
+        <form action="check.jsp" method="POST">
+            <div class="logintitle">
+                <h1><a href="../index.html" style="color: aliceblue;">Sweet Box</a></h1>
+            </div>
+            <div class="login">
+                <h1>會員登入</h1>
+            </div>
+            帳號 : <input type="text" id="username" name="id"><br>
+            密碼 : <input type="password" id="password" name="pwd"><br>
+            <input type="submit" name="b1" value="登入" class="loginbutton">
             <!-- <input type="reset" value="取消" class="loginbutton"> -->
             <!-- <a href="index.html">
                 <button type="button" class="loginbutton">登入</button>
@@ -26,9 +30,7 @@
             <div class="gologin" style="color: black; padding-top: 40px;">
                 尚未註冊 ? <a href="signup.html">點我註冊</a>
             </div>
-
         </form>
     </div>
-
 </body>
 </html>
