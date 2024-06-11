@@ -1,0 +1,151 @@
+.index_body {
+    margin: 0;
+    background-image: url(picture/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 微軟正黑體 Light;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+
+/*下方為header的設定*/
+
+
+header {
+    height: 100px;
+    background-image:url(picture/logo1.png);
+    font-family: Muyao-Softbrush;
+    font-size: 50px;
+    text-align: center;
+    }
+    
+    #logo {
+    width: 250px;
+    height: 250px;
+    margin-top: -39px;
+    /*border-radius: 30px;*/
+    }
+    
+    nav {
+    
+    text-align: center;
+    font-family: Arial;
+    margin-top: -30px;
+    height: 40px;
+    }
+    
+    nav ul {
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav ul li {
+    display: inline;
+    margin-right: 10px;
+    margin-top: -15px;
+    }
+    
+    nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 14px 16px;
+    font-size: 20px;
+    margin-top: -50px;
+    }
+    
+    nav ul li a:hover {
+      background-color:#C3A6A0;
+    color:black;
+    margin-top: -10px;
+    }
+    
+    /*為header的設定到此end*/
+
+    /*下方為購物車滾輪的css*/
+aside {
+    position: fixed;
+    left: 94.5%;
+    top: 200px;
+  }
+  
+  /*為購物車滾輪的設定到此end*/
+
+  /*下方為簡介的設定*/
+   
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    padding-top: 40px;
+    text-align: center;
+    color: #444444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .card img {
+    width: 500px;
+    height: 500px;
+margin-top: 20px;
+  }
+  
+  .card .content {
+    text-align: center;
+  }
+  
+  .card h3 {
+    font-size: 28px;
+    font-family: 微軟正黑體;
+    letter-spacing: 3px;
+    line-height: 30px;
+    margin-bottom: 0;
+  }
+  
+  .card p {
+    font-size: 17px;
+    font-family: 微軟正黑體;
+    letter-spacing: 3px;
+    line-height: 30px;
+    margin-bottom: 0;
+  }
+  
+  
+  
+/*下方為footer的css*/
+footer {
+    color: white;
+    text-align: center;
+    background-color: #444444;
+    padding: 10px;
+    position: fixed;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    margin-top: -10px;
+  }
+  .footer2 {
+    background-color: burlywood;
+    height: 30px;
+    margin-top: -25px;
+}
+.footer2 {
+    background-color: burlywood;
+    height: 30px;
+    margin-top: -25px;
+}
+
+  
+  
+  /*為footer的css到此end*/
+ 
+  

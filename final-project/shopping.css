@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+main {
+    padding: 20px;
+}
+
+.s-header h4 {
+    font-size: 22px;
+    padding: 10px;
+    margin: 0;
+    font-family: 微軟黑正體;
+    text-align: center;
+    color: rgba(45, 40, 40, 0.863);
+    background-image: url(picture/background.jpg
+    );
+}
+
+.number {
+    border: none;
+    height: 35px;
+    width: 25px;
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+    padding: 0 15px;
+}
+
+td {
+    border: 1px solid #adb5b9;
+    border-right: #878C8F;
+    border-left: #878C8F;
+    text-align: center;
+    padding: 10px;
+    width: 280px;
+    height: 60px;
+}
+
+
+.info {
+    padding: 0px 35px;
+    line-height: 2;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.text1 {
+    height: 30px;
+    padding: 15px;
+}
+
+.deliver-form {
+    display: block;
+    width: 60%;
+    height: 34px;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+.checkout {
+    text-align: center;
+}
+
+.button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 50px;
+}

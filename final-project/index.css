@@ -1,0 +1,194 @@
+.index_body {
+  margin: 0;
+  background-image: url(picture/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 微軟正黑體 Light;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/*下方為header的設定*/
+
+
+header {
+height: 100px;
+background-image:url(picture/logo5-1.png);
+font-family: Muyao-Softbrush;
+font-size: 50px;
+text-align: center;
+}
+
+#logo {
+width: 250px;
+height: 250px;
+margin-top: -39px;
+/*border-radius: 30px;*/
+}
+
+nav {
+
+text-align: center;
+font-family: Arial;
+margin-top: -30px;
+height: 40px;
+}
+
+nav ul {
+margin: 0;
+padding: 0;
+}
+
+nav ul li {
+display: inline;
+margin-right: 10px;
+margin-top: -15px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: black;
+padding: 14px 16px;
+font-size: 20px;
+margin-top: -50px;
+}
+
+nav ul li a:hover {
+  background-color:#C3A6A0;
+color:black;
+margin-top: -10px;
+}
+
+/*為header的設定到此end*/
+
+/*下方為購物車滾輪的css*/
+aside {
+  position: fixed;
+  left: 94.5%;
+  top: 200px;
+}
+
+/*為購物車滾輪的設定到此end*/
+
+/*下方為滾動式投影的css*/
+
+.slideshow-container {
+  width: 100%; /* 设置幻灯片容器的宽度为100% */
+  height: 0; /* 初始时将容器的高度设为0，后续会通过padding-bottom实现固定宽高比 */
+  padding-bottom: 40.30%; /* 通过底部内边距来实现固定宽高比，这里是宽高比 */
+  position: relative; /* 设置容器的定位方式为相对定位 */
+  overflow: hidden; /* 控制溢出内容的处理方式为隐藏 */
+  margin-top: 200px;
+}
+
+.slide {
+  position: absolute; /* 将幻灯片设置为绝对定位 */
+  top: 0; /* 设置幻灯片相对于容器顶部的位置 */
+  left: 0; /* 设置幻灯片相对于容器左侧的位置 */
+  width: 100%; /* 设置幻灯片的宽度为100% */
+  height: 100%; /* 设置幻灯片的高度为100% */
+  display: none; /* 初始状态下将幻灯片隐藏 */
+}
+
+.slide img {
+  width: 100%; /* 设置图片的宽度为100% */
+  height: 100%; /* 设置图片的高度为100% */
+  object-fit: contain; /* 控制图片的填充方式为等比例缩放并保持完整可见 */
+  max-width: 100%; /* 设置图片的最大宽度为100% */
+  max-height: 100%; /* 设置图片的最大高度为100% */
+}
+
+.active {
+  display: block; /* 当幻灯片具有active类时，显示为块级元素 */
+}
+
+/*為滾動式投影的css到此end*/
+
+
+/*下方為排行投影的css*/
+p1 {
+  display: flex;
+  font-size: 48px;
+  text-align: center;
+  justify-content: center;
+  color:darkolivegreen;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.productsbox {
+  display: flex;
+  justify-content: center;
+}
+
+.products {
+  position: relative;
+  margin: 20px;
+}
+
+.products img {
+  width: 400px;
+  height: 400px;
+}
+
+.text-over{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: black;
+  transition: opacity 0.3s ease;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #C3A6A0;
+}
+
+
+
+.products:hover .text-over {
+  opacity: 0.7;
+}
+
+ 
+
+
+/*為排行投影的css到此end*/
+
+
+
+
+
+
+
+
+
+/*下方為footer的css*/
+footer {
+  color: white;
+  text-align: center;
+  background-color: #444444;
+  padding: 50px;
+  margin-top: 400px;
+}
+
+footer p {
+  margin-top: -10px;
+}
+
+.footer2 {
+  background-color: burlywood;
+  height: 30px;
+  margin-top: -25px;
+}
+
+
+/*為footer的css到此end*/

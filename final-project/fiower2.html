@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      .container {
+        display: flex;
+      }
+
+      .product-image {
+        width: 800px; /* 固定寬度 */
+        height: 800px; /* 固定高度 */
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+      }
+      .product-image img {
+            max-width: 100%; /* 最大寬度為容器的寬度 */
+            max-height: 100%; /* 最大高度為容器的高度 */
+        }
+
+      .product-info {
+        width: 50%;
+      }
+      .product-info p {
+            white-space: nowrap; /* 防止文字換行 */
+            overflow: hidden; /* 超出部分隱藏 */
+            text-overflow: ellipsis; /* 超出部分以省略符號表示 */
+        }
+        .product-info button {
+            width: 150px; /* 設定按鈕寬度 */
+            height: 50px; /* 設定按鈕高度 */
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="index.html"
+        ><img id="logo" src="picture/logo5-1.png"
+      /></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">首頁</a></li>
+          <li><a href="about.html">品牌故事</a></li>
+          <li><a href="products.html">產品介紹</a></li>
+          <li><a href="qaa.html">常見問題</a></li>
+          <li><a href="trade.html">關於我們</a></li>
+          <li><a href="shopping.html">購物清單</a></li>
+          <li><a href="signup.html">會員註冊</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- 下方是購物車、背景圖片 -->
+    <aside>
+      <a href="shopping.html" target="_blank"
+        ><img src="picture/cart.jpg" style="width: 75px; height: 75px"
+      /></a>
+      <a href="login.html" target="_blank"
+        ><img src="picture/member.jpg" style="width: 75px; height: 75px"
+      /></a>
+    </aside>
+
+    <body class="index_body"></body>
+    <li><a href="picture/logo5-1.png"></a></li>
+    <br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br />
+    <div class="container">
+      <div class="product-image">
+        <img src="picture/flower2.jpg" alt="商品照片" />
+      </div>
+      <div class="product-info">
+        <h2>單枝永生玫瑰花束</h2>
+        <p>● 材料：進口不凋玫瑰、乾燥花材、包裝紙<br>
+          (依當令季節材料稍作調整)<br>
+          ● 尺寸：高度約55cm<br>
+          ● 色系：由設計師搭配整體色系。<br>
+          🌷花材種類 / 每週當季盛產花材（鮮花）為主，請在每週一前回覆您想認購的花束數量。<br>
+          🌷取貨時間 / 週二至週日，下單時請備註日期。<br>
+          🌷取貨地點 / sweet box。<br>
+          🌷環保取向 / 請大家自備購物袋。<br>
+          🌷外送方式 / 購物金額滿 1000元以上10分鐘車程內可免費外送，其他地區依路程酌收外送費。<br></p>
+        <p>價格: $500.00</p>
+        <a href="products.html" target="_blank"><button>回商品頁</button></a> 
+        <a href="shopping.html" target="_blank"><button>加入購物車</button></a>
+        <br /><br />
+        <h3>商品回饋</h3>
+      <ul>
+        <li>小明: 這束花非常美麗，顏色搭配得很好。</li>
+<li>麗娜: 花朵新鮮，包裝精美，贈送給朋友真是個好選擇。</li>
+<li>張先生: 花束大小適中，適合送給長輩，他們非常喜歡。</li>
+<li>芳姐: 快遞速度很快，花束質量也很好，非常滿意。</li>
+<li>陳小姐: 這束花的香氣真是令人陶醉，非常喜歡。</li>
+<li>阿杰: 好多種不同的花朵，顏色豐富，很有氣氛。</li>
+<li>莉莉: 好幸運能收到這麼漂亮的花束，謝謝！</li>
+<li>孟太太: 包裝精緻，送禮給朋友很有面子。</li>
+<li>小華: 花束的價格很實惠，性價比高。</li>
+<li>亞倫: 送給女朋友後，她非常開心，感覺很浪漫。</li>
+      </ul>
+      </div>
+    </div>
+
+    <!-- 下方是footer -->
+
+    <footer>
+      <p>觀看次數：</p>
+      <p>Sweet Box</p>
+      <p>Phone : (+886)- 912345678</p>
+      <p>Email : example.ex@gmail.com</p>
+      <p>Copyrgiht @ 2023 All rights reserved</p>
+    </footer>
+    <div class="footer2">
+      <p></p>
+    </div>
+  </body>
+</html>
