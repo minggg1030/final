@@ -36,6 +36,7 @@ if(session.getAttribute("id") != null ){
 
 			<input type="submit" name="b1" value="更新資料" />
 			<!-- <h2>------------------------------------------</h2> -->
+			<a href='../index.jsp'>回首頁</a>
 			
 
 		</form>

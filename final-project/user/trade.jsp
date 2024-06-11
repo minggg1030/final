@@ -32,7 +32,7 @@
 
  <!-- 下方是組員介紹 -->
       
- <h2 class="GMT"> << 組員介紹 >></h2>
+<h2 class="GMT"> << 組員介紹 >></h2>
 <div class="container">
   <%
   sql = "SELECT * FROM `members`" ;
