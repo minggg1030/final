@@ -7,33 +7,51 @@
     <title>註冊</title>
     <link rel="stylesheet" href="signup.css">
 </head>
-<body>
+<body style="background-image: url(../picture/background.jpg);">
     <!-- 註冊區 -->
-    <section>
+    <section >
 
-        <div class="signup_main">
+        <div class="signup_main" style="background-color:rgb(255, 230, 234)" >
 
-            <form class="form">
-                <h2>聯絡資料<br>------------------------------------------</h2>
-                <!-- <label>姓名</label>
+            <form class="form" action="./add.jsp" method="post">
+                <h2>基本資料<br>------------------------------------------</h2>
+                <label>姓名</label>
                 <div class="inputext">
-                    <input type="text" id="user_name" class="ipt">
-                </div> -->
-                <label for="user_id">帳號</label>
-                <div class="inputext">
-                    <input type="text" id="user_id" class="ipt">
+                    <input type="text" id="user_name" class="ipt" name="name">
                 </div>
+                <label for="user_id">帳號(電子郵件)</label>
+                <div class="inputext">
+                    <input type="email" id="user_id" class="ipt" name="id">
+                </div>
+
                 <label for="password">密碼</label>
                 <div class="inputext">
-                    <input type="password" id="password" class="ipt">
+                    <input type="password" id="password" class="ipt" name="pwd">
                 </div>
-                <!-- <label for="user_phone">電話</label>
+                <label for="user_name">手機號碼</label>
                 <div class="inputext">
-                    <input type="text" id="user_phone" class="ipt">
-                </div> -->
+                    <input type="tel" id="user_name" class="ipt" name="tel">
+                    <!-- <input type="button" id="zphone" value="獲取手機驗證碼" onClick="get_mobile_code()" style="display: inline-block;"> -->
+                </div>
+                <label>性別</label>
+                <div style="padding: 10px;">
+                    <input type="radio" class="gen" name="gender" value="男" > 男生
+                    <input type="radio" class="gen" name="gender" value="女" > 女生
+                    <input type="radio" class="gen" name="gender" value="不明" > 秘密
+                    <br>
+                </div>
+                <label>生日</label>
+                <div class="inputext">
+                    <input type="date" id="user_name" class="ipt" name="birthday">
+                </div>
+                <label>地址</label>
+                <div class="inputext">
+                    <input type="text" id="user_name" class="ipt" name="address">
+                </div>
+
                 <div class="btnmain">
                     <input type="submit" value="註冊" class="btn">
-                <a href="../index.html">
+                <a href="../index.jsp">
                     <input type="button" value="取消" class="btn">
                 </a>
                 </div>
@@ -42,7 +60,7 @@
                 <div class="gologin" style="color: black; padding-top: 40px;">
                     已經註冊了？<a href="login.html">點我登入</a>
                 </div>
-
+                
             </form>
 
         </div>

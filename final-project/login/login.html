@@ -7,7 +7,8 @@
     <title>會員中心</title>
     <link rel="stylesheet" href="login.css">
 </head>
-<body>
+<body style="background-image: url(../picture/background.jpg);">
+    
     <div id="container">
         <form action="check.jsp" method="POST">
             <div class="logintitle">
@@ -16,18 +17,18 @@
             <div class="login">
                 <h1>會員登入</h1>
             </div>
-            帳號 : <input type="text" id="username" name="id"><br>
-            密碼 : <input type="password" id="password" name="pwd"><br>
+            <div style="padding: 10px;">
+                <div style="padding: 5px;">帳號: <input type="text"  name="id"><br></div>
+                <div style="padding: 5px;">密碼: <input type="password"  name="pwd"></div>
+            </div>
+            
+           
             <input type="submit" name="b1" value="登入" class="loginbutton">
-            <!-- <input type="reset" value="取消" class="loginbutton"> -->
-            <!-- <a href="index.html">
-                <button type="button" class="loginbutton">登入</button>
-            </a>  -->
-            <a href="../index.html">
+            <a href="../index.jsp">
                 <button type="button" class="loginbutton">取消</button>
             </a> 
             
-            <div class="gologin" style="color: black; padding-top: 40px;">
+            <div class="gologin" style="color: black; padding-top: 30px;">
                 尚未註冊 ? <a href="signup.html">點我註冊</a>
             </div>
         </form>

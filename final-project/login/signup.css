@@ -7,7 +7,7 @@ body {
 .signup_main {
     margin-top: 10%;
     width: 600px;
-    height: 850px;
+    height: 1000px;
     color: rgb(1, 0, 0);
     box-shadow: 0 0 50px #000;
     border-radius: 2%;
@@ -19,6 +19,7 @@ body {
 .form {
     margin-left: 8%;
     padding-top: 20px;
+    height: 650px;
 }
 
 form h2 {
